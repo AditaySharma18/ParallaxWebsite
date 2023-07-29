@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imgst{
+    opacity: 0.9;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+}
+
+.image1{
+    background-image: url(./1280px-Shaqi_jrvej.jpg);
+    height: 800px;
+}
+
+.parallaxtext{
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+}
+
+.darktext{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.text{
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    color: brown;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+#grey{
+    font-weight: 600px;
+    color: black;
+}
+
+.image2{
+    background-image: url(./1280px-Bachalpsee_reflection.jpg);
+    height: 400px;
+}
+
+.imgtxt{
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+    font-weight: bold;
+}
+
+.dark{
+    background-color: bisque;
+    color: darkcyan;
+}
+
+.txtsection{
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.image3{
+    background-image: url(./Levi\,_Kittila_-_Finland_-_panoramio_-_aristidov_\(7\).jpg);
+    height: 400px;
+}
+
+
+@media screen and (max-width:500px) {
+
+    .darktext{
+        padding: 8px;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+    
+}
